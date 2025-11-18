@@ -14,6 +14,7 @@ This week, the aim is to familiarise yourself with pytorch. Train a classificati
 
 Try to implement 
 MINST Tutorial: https://sagemaker-examples.readthedocs.io/en/latest/frameworks/pytorch/get_started_mnist_train.html
+
 Extention 1: a "Comittee Machine": https://www.nature.com/articles/s41467-020-18098-0
 
 Another extention related to what we have been talking about in the Friday sessions it to try and implement the simple linear regression task on cross-lingual data. Perhaps the biggest hurdle will be in downloading the embedding model/data, so there is some artifical data in XXXX(not done yet...). That being said, it would be nice to recreate some results so those of you who are more confident in using PyTorch can begin to implement some of the results in the experiments folder. 
