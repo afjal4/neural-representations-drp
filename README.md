@@ -13,7 +13,7 @@ Welcome to the Neural Representations DRP. Here are resources/ experiments relat
 This week, the aim is to familiarise yourself with pytorch. Train a classification model on the MNIST dataset, which is a (if not the most) classic ML task. We can then extend this to try and simulate non-idealities when training on neuromorphic hardware.
 
 Try to implement 
-MINST Tutorial: https://sagemaker-examples.readthedocs.io/en/latest/frameworks/pytorch/get_started_mnist_train.html
+MINST Tutorial: https://nextjournal.com/gkoehler/pytorch-mnist
 
 Extention 1: a "Comittee Machine": https://www.nature.com/articles/s41467-020-18098-0
 
