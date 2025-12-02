@@ -25,3 +25,9 @@ repo with link to download real word embedding data.
 https://github.com/artetxem/vecmap
 https://github.com/facebookresearch/MUSE
 easier to read implementation: https://github.com/n8686025/word2vec-translation-matrix/blob/master/jp-en-translation.py
+
+### Tuesday 25th November 2025
+Session is not on today. Continue with last week's tasks.
+
+### Tuesday 2nd December 2025
+Following our session last Friday, we are starting to work towards our new project. This will be the goal for the rest of our sessions this term. Check [here](specific_connections_in_embeddings) for development!
