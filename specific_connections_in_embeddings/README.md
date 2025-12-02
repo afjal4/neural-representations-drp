@@ -1,1 +1,3 @@
 # Detecting Specific Connections in Embeddings
+
+All of the kernel functions (embedding similarity functions) we have been looking at over the past few weeks measure similarity on a broad scale very well, so words like `pen - pencil`, or `squid - octopus` would be scored as similar. However, when words share meaning on a very specific level, eg. `pen - squid` (has ink), kernel functions do not detect any similarity, when in reality there exists some, albeit weak, similarity. We assess a kernel functions ability to detect subtle changes using NYT Connections puzzles, which each feature 4 groups of 4 words that are linked by an obscure relation. 
