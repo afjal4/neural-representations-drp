@@ -2,7 +2,7 @@ from scipy.cluster import SpectralClustering
 from scipy.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 import numpy as np
-from scipy.spatial.distance import cdist
+from scipy.spatial.distance import cdist, pdist
 
 
 def kernel_func(embeddings, ker_type):
