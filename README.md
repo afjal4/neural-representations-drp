@@ -1,6 +1,10 @@
 # Neural Representations Directed Reading Program
 Welcome to the Neural Representations DRP. Here are resources/ experiments relating to how computers represent abstract concepts. In particular, our focuses are on representational alignment using embedding geometry, and alignment metrics between representations.
 
+DRP Symposium: January 14th 2026
+poster: https://www.overleaf.com/read/qhkpdnxnhkcw#80a0bd
+please message if you would like to speak/write something to show!
+
 ## Resources
 
 ### Representational Alignment
@@ -31,3 +35,4 @@ Session is not on today. Continue with last week's tasks.
 
 ### Tuesday 2nd December 2025
 Following our session last Friday, we are starting to work towards our new project. This will be the goal for the rest of our sessions this term. Check [here](specific_connections_in_embeddings) for development!
+
