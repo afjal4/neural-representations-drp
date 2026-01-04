@@ -6,6 +6,8 @@ DRP Symposium: January 14th 2026
 poster: https://www.overleaf.com/read/qhkpdnxnhkcw#80a0bd
 please message if you would like to speak/write something to show!
 
+## Exercises
+
 ### Tuesday 18th November 2025
 This week, the aim is to familiarise yourself with pytorch. Train a classification model on the MNIST dataset, which is a (if not the most) classic ML task. We can then extend this to try and simulate non-idealities when training on neuromorphic hardware.
 
@@ -34,67 +36,57 @@ Following our session last Friday, we are starting to work towards our new proje
 ### Embeddings
 
   - The Origins of Representation Manifolds in Large Language Models (Modell et al. 
-    - https://www.arxiv.org/abs/2505.18235}
+    - https://www.arxiv.org/abs/2505.18235
     - Paper formalising the structure of features of concepts. This is a paper by Alexander Modell, a research fellow here at Imperial.
 
-        \item Google Explainer of Embeddings
-        \url{https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space}
+  - Google Explainer of Embeddings
+    - https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space
 
-        \item Topology of Word Embeddings: Singularities Reflect Polysemy \url{https://arxiv.org/pdf/2011.09413}\\
-        Interesting paper about the topological properties of a "meaning space".
+  - Topology of Word Embeddings: Singularities Reflect Polysemy
+    - https://arxiv.org/pdf/2011.09413
+    - Interesting paper about the topological properties of a "meaning space".
         
 
-        \item NeurReps \url{https://www.neurreps.org}
-        \\ 
-        NeurReps is a workshop, where researchers publish findings specifically pertaining representations (ie. embeddings) in artificial and biological brains. With blog and further learning resources also.  
-
-        \end{itemize}
+  - NeurReps \url{https://www.neurreps.org}
+    - NeurReps is a workshop, where researchers publish findings specifically pertaining representations (ie. embeddings) in artificial and biological brains. With blog and further learning resources also.  
     
-    \item Bilingual Mapping Problem \begin{itemize}
+### Bilingual Mapping Problem
         
-        \item Exploiting Similarities among Languages for Machine Translation (Mikolov et al.) \url{https://arxiv.org/pdf/1309.4168}
-
-        
-        \item Learning principled bilingual mappings of word embeddings while preserving monolingual invariance (Mikel Artetxe et al.) \url{https://aclanthology.org/D16-1250.pdf} 
-        
-        More advanced topics in Bilingual Map Problem
+- Exploiting Similarities among Languages for Machine Translation (Mikolov et al.)
+  - https://arxiv.org/pdf/1309.4168
 
         
-
-        \item Bilingual Lexicon Induction for Low-Resource Languages using Graph Matching via Optimal Transport (Marchisio et al.) \url{https://aclanthology.org/2022.emnlp-main.164} 
-
-        \item Beyond Offline Mapping: Learning Cross-lingual Word Embeddings through Context Anchoring (Ormazaba et al.)
-        \url{https://aclanthology.org/2021.acl-long.506.pdf}
-\url{https://aclanthology.org/2022.emnlp-main.164.pdf}
-
-    \end{itemize}
-
-    \item Representational Alignment \begin{itemize}
-
-        \item The Platonic Representation Hypothesis (Isola et al.)\\\url{https://arxiv.org/abs/2405.07987}
-        \\A key paper in the study of representational alignment, which posits that AI representations are converging to an objective reality.
+- Learning principled bilingual mappings of word embeddings while preserving monolingual invariance (Mikel Artetxe et al.) \url{https://aclanthology.org/D16-1250.pdf} 
         
-        \item Emerging Cross-lingual Structure in Pretrained Language Models (Conneau et al.) \url{https://aclanthology.org/2020.acl-main.536.pdf?utm_source=chatgpt.com}
+More advanced topics in Bilingual Map Problem:
 
-        \item UniReps \url{https://unireps.org}
+- Bilingual Lexicon Induction for Low-Resource Languages using Graph Matching via Optimal Transport (Marchisio et al.)
+  - https://aclanthology.org/2022.emnlp-main.164
 
-        Leading workshop on the alignment of representations.
-
-        \item Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlations analysis (Williams et al.) \url{https://openreview.net/forum?id=zMdnnFasgC#discussion}
-    \end{itemize}
-
-    \item Computational Neuroscience \begin{itemize}
-        \item \textit{Peter Gärdenfors} is a psychologist that pioneered ideas re: concepts in vector spaces in his books "Conceptual Spaces" and "The Geometry of Meaning".
-        
-        \item Weekly In-Person CompNeuro Lectures 
-        \url{https://www.ucl.ac.uk/life-sciences/gatsby/news-and-events}
-
-        These are weekly lectures hosted at the Gatsby institute in UCL. They are leaders in this field and I highly recommend keeping up with their work if you're interested in the field.
-        
-    \end{itemize}
+- Beyond Offline Mapping: Learning Cross-lingual Word Embeddings through Context Anchoring (Ormazaba et al.)
+  - https://aclanthology.org/2021.acl-long.506.pdf
+  - https://aclanthology.org/2022.emnlp-main.164.pdf
 
 ### Representational Alignment
 
-### Alignment Metrics
+- The Platonic Representation Hypothesis (Isola et al.)
+  - https://arxiv.org/abs/2405.07987
+  - A key paper in the study of representational alignment, which posits that AI representations are converging to an objective reality.
+        
+- Emerging Cross-lingual Structure in Pretrained Language Models (Conneau et al.)
+  - https://aclanthology.org/2020.acl-main.536.pdf
 
-## Exercises
+- UniReps \url{https://unireps.org
+  - Leading workshop on the alignment of representations.
+
+- Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlations analysis (Williams et al.)
+  - https://openreview.net/forum?id=zMdnnFasgC#discussion
+
+
+### Computational Neuroscience
+
+Peter Gärdenfors is a psychologist that pioneered ideas re: concepts in vector spaces in his books "Conceptual Spaces" and "The Geometry of Meaning".
+        
+Weekly In-Person CompNeuro Lectures 
+https://www.ucl.ac.uk/life-sciences/gatsby/news-and-events
+These are weekly lectures hosted at the Gatsby institute in UCL. They are leaders in this field and I highly recommend keeping up with their work if you're interested in the field.
