@@ -21,12 +21,9 @@ def kernel_matrix_error(kernel_matrix, target_matrix = None, norm='fro'):
 
 def get_answer(words, labels):
     """
-    words: list of words (16,)
-
-    labels: list of 0, 1, 2, 3, category of words
-
-    returns:
-        4 lists of words in each category
+    :param words: list of words (16,)
+    :param labels: list of 0, 1, 2, 3, category of words
+    :return: 4 lists of words in each category
     """
     words = np.array(words)
     labels = np.array(labels)
@@ -35,14 +32,10 @@ def get_answer(words, labels):
 
 def create_kernel_mat(words, fn, model, **kwargs):
     """
-    words: list of words
-
-    fn: kernel function
-
-    model: dict mapping words to vectors
-
-    returns:
-        kernel matrix calculated using kernel function
+    :param words: list of words
+    :param fn: kernel function
+    :param model: dict mapping words to vectors
+    :return: kernel matrix calculated using kernel function
     """
     mat = []
     for i in words:
@@ -52,11 +45,12 @@ def create_kernel_mat(words, fn, model, **kwargs):
         mat.append(row)
     return mat
 
-def plot_kernel_mat(mat, labels, cmap='magma'):
+def plot_kernel_mat(mat, labels, cmap='magma', title=''):
     plt.imshow(mat, cmap=cmap)
     plt.xticks(ticks=np.arange(16), labels=labels, rotation=90)
     plt.yticks(ticks=np.arange(16), labels=labels)
     plt.colorbar()
+    plt.title(title)
     plt.show()
 
 def normalized_dot_fn(x, y, eps=1e-8):
@@ -73,11 +67,11 @@ def rbf_kernel_fn(x, y, gamma):
 
 def compute_gamma(words, model):
     """
-    Compute gamma = 1 / median(||x_i - x_j||^2)
+    Compute the desired parameter gamma
 
-    words: list of words
-
-    model: dict mapping word -> vector
+    :param words: list of words
+    :param model: dict mapping word -> vector
+    :return: gamma = 1 / median(||x_i - x_j||^2)
     """
     vecs = np.stack([model[w] for w in words], axis=0)  # (N, d)
     N = vecs.shape[0]
@@ -97,10 +91,10 @@ def kmeans_order_from_K(K, n_clusters=4, random_state=0):
     """
     Cluster data using kmeans.
 
-    K: (N, N) similarity / kernel matrix
-
-    returns:
-        order: list of reordered indices
+    :param K: (N, N) similarity / kernel matrix
+    :param n_clusters: number of clusters needed
+    :param random_state: random state
+    :returns: list called order, containing reordered indices
     """
 
     km = KMeans(n_clusters=n_clusters, random_state=random_state)
@@ -115,12 +109,9 @@ def kmeans_order_from_K(K, n_clusters=4, random_state=0):
 
 def apply_order(x, order):
     """
-    x: (N, N) matrix OR (N,) vector/list
-
-    order: list of indices
-
-    returns:
-        reordered x
+    :param x: (N, N) matrix OR (N,) vector/list
+    :param order: list of indices
+    :returns:reordered x
     """
     order = np.asarray(order)
     x = np.asarray(x)
