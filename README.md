@@ -1,6 +1,8 @@
 # Neural Representations Directed Reading Program
 Welcome to the Neural Representations DRP. Here are resources/ experiments relating to how computers represent abstract concepts. In particular, our focuses are on representational alignment using embedding geometry, and alignment metrics between representations.
 
+Intro slides (just some pictures and papers): https://docs.google.com/presentation/d/1zcOYY9ryk0WTkoAGgHkzx4lQj32vRPbKKRrv91ngiJ8/edit?usp=sharing
+
 DRP Symposium: January 14th 2026
 
 poster: https://www.overleaf.com/read/qhkpdnxnhkcw#80a0bd
