@@ -1,4 +1,7 @@
 # Neural Representations Directed Reading Program
+
+> Thank you for attending my DRP this year! It has been really lovely to see everyone so interested and engaged in the projects that we have been running at the intersection of language, ML and high-dimentional statistics. We were one of the biggest groups this year, and the first ever group to be run by a year 2 haha! Really excited to announce that this Summer 2026 we will be presenting one of our projects in [CCN 2026](https://2026.ccneuro.org), which you can find [here](https://github.com/afjal4/intrarepresentational-alignment). I will be running a new DRP this Autumn 2026 called "Infinite-Dimentional LLMs" based on my research I'm doing this summer in MIT, so stay tuned!
+
 Welcome to the Neural Representations DRP. Here are resources/ experiments relating to how computers represent abstract concepts. In particular, our focuses are on representational alignment using embedding geometry, and alignment metrics between representations.
 
 Intro slides (just some pictures and papers): https://docs.google.com/presentation/d/1zcOYY9ryk0WTkoAGgHkzx4lQj32vRPbKKRrv91ngiJ8/edit?usp=sharing
